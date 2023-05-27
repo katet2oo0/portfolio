@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../font/Roboto.eot');
+  src: url('../font/Roboto.eot?#iefix') format('embedded-opentype'),
+  url('../font/Roboto.woff') format('woff'),
+  url('../font/Roboto.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  }
+
+.card {
+    display: flex;
+    background-image: url(../img/Фон.png);
+    font-family: 'Roboto';
+    color: #121212;
+  }
+
+.img {
+  position: relative;
+  
+}
+
+.foto {
+  margin-right: 70px;
+  
+}
+
+.foto-text {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.inform {
+  margin: 75px 0 160px 0;
+}
+.name {
+  font-weight: 550;
+  font-size: 48px;
+  line-height: 56px;
+}
+
+.city {
+  display: block;
+  margin: 20px 0 50px 0;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;   
+}
+
+.icon {
+  display: flex;
+  gap: 30px;
+  margin: 50px 0;
+}
+
+.word {
+  font-weight: 500;
+font-size: 32px;
+line-height: 38px;
+text-indent: 30px;
+}
+
+.about {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.blok-btn {
+  display: flex;
+  gap: 25px;
+  margin: 20px 0 64px 0;
+}
+
+.button {
+  height: 66px;
+  background: #414141;
+  border-radius: 45px;
+  border: none;
+  font-size: 32px;
+  line-height: 38px;
+  color: #FFFFFF;
+}
+
+button:hover {
+  background: rgba(0,0,0,0);
+  color: #414141;
+  box-shadow: inset 0 0 0 3px #414141;
+}
+
+.html {
+  width: 198px;
+}
+.css {
+  width: 170px;
+}
+.saas {
+  width: 181px;
+}
+.bem {
+  width: 180px;
+}
+.flex {
+  width: 221px
+}
+
+.text {
+  max-width: 1026px;
+  font-size: 32px;
+  line-height: 38px;
+  text-indent: 30px;
+}
+
+.form {
+  margin-top: 50px;
+}
+
+.input {
+  border: 1px solid #121212;
+  border-radius: 11px;
+  background: #FFFFFF;
+  width: 338px;
+  height: 66px;
+  padding: 14px 143px 14px 16px;
+  color: #121212;
+  font-size: 32px;
+  line-height: 38px;
+}
+
+.input-left {
+  margin-right: 25px;
+}
+
+.btn {
+  display: block;
+  margin-top: 25px;
+  width: 705px;
+  height: 66px;
+  left: 0px;
+  top: 91px;
+  background: #121212;
+  border-radius: 11px;
+  font-size: 32px;
+  line-height: 38px;
+  color: #FFFFFF;
+}
